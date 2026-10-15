@@ -1,0 +1,150 @@
+{
+  "notes": 10,
+  "valid_records": 9,
+  "field_accuracy": {
+    "routes": "10/10",
+    "effective_from": "8/10",
+    "effective_to": "8/10",
+    "cost_effect": "7/10",
+    "magnitude_pct": "10/10"
+  },
+  "permissive_errors": {
+    "N002": [
+      "window ends later (open-ended vs 2025-01-26)"
+    ],
+    "N006": [
+      "window ends later (open-ended vs 2025-09-30)"
+    ]
+  },
+  "per_note": [
+    {
+      "note_id": "N001",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {},
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N002",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {
+        "effective_to": {
+          "llm": null,
+          "reviewed": "2025-01-26"
+        }
+      },
+      "permissive_errors": [
+        "window ends later (open-ended vs 2025-01-26)"
+      ]
+    },
+    {
+      "note_id": "N003",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {},
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N004",
+      "valid": false,
+      "validation_error": "N004: evidence is not a verbatim quote from the note",
+      "mismatches": {
+        "cost_effect": {
+          "llm": "not_stated",
+          "reviewed": "increase"
+        }
+      },
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N005",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {},
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N006",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {
+        "effective_from": {
+          "llm": "2025-09-22",
+          "reviewed": "2025-07-01"
+        },
+        "effective_to": {
+          "llm": null,
+          "reviewed": "2025-09-30"
+        },
+        "cost_effect": {
+          "llm": "not_stated",
+          "reviewed": "no_change"
+        }
+      },
+      "permissive_errors": [
+        "window ends later (open-ended vs 2025-09-30)"
+      ]
+    },
+    {
+      "note_id": "N007",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {},
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N008",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {
+        "effective_from": {
+          "llm": "2025-06-09",
+          "reviewed": "2025-04-01"
+        }
+      },
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N009",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {
+        "cost_effect": {
+          "llm": "not_stated",
+          "reviewed": "no_change"
+        }
+      },
+      "permissive_errors": []
+    },
+    {
+      "note_id": "N010",
+      "valid": true,
+      "validation_error": null,
+      "mismatches": {},
+      "permissive_errors": []
+    }
+  ],
+  "usage": {
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.0,
+    "seed": 42,
+    "reasoning_effort": "low",
+    "calls": 10,
+    "failures": 0,
+    "input_tokens": 4776,
+    "output_tokens": 1472,
+    "price_usd_per_million": {
+      "input": 0.075,
+      "output": 0.3
+    },
+    "estimated_cost_usd": 0.0008,
+    "by_purpose": {
+      "note_extraction": {
+        "calls": 10,
+        "input_tokens": 4776,
+        "output_tokens": 1472
+      }
+    }
+  }
+}

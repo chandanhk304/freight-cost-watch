@@ -1,0 +1,102 @@
+[
+  {
+    "note_id": "N001",
+    "routes": ["Chennai-Bangalore"],
+    "effective_from": "2025-02-24",
+    "effective_to": "2025-03-08",
+    "cost_effect": "increase",
+    "magnitude_pct": null,
+    "evidence": "disrupted normal truck movement from Feb 24 to Mar 8, forcing longer detours and higher trip costs",
+    "annotation_note": "Window is explicit in the text. 'Roads were passable again by Mar 9' confirms the end date."
+  },
+  {
+    "note_id": "N002",
+    "routes": ["Ahmedabad-Mumbai"],
+    "effective_from": "2025-01-20",
+    "effective_to": "2025-01-26",
+    "cost_effect": "increase",
+    "magnitude_pct": null,
+    "evidence": "A regional festival week saw a temporary surcharge applied by transporters",
+    "annotation_note": "'Festival week' starting on the note date: the Monday-Sunday week of 2025-01-20."
+  },
+  {
+    "note_id": "N003",
+    "routes": ["ALL"],
+    "effective_from": "2025-05-05",
+    "effective_to": null,
+    "cost_effect": "increase",
+    "magnitude_pct": [5, 7],
+    "evidence": "pushing up transportation costs across all routes by roughly 5-7%",
+    "annotation_note": "'Starting this week' with no end date: open-ended. Magnitude stated as roughly 5-7%."
+  },
+  {
+    "note_id": "N004",
+    "routes": [],
+    "effective_from": "2024-03-11",
+    "effective_to": null,
+    "cost_effect": "increase",
+    "magnitude_pct": null,
+    "evidence": "the affected routes are not part of this dataset",
+    "annotation_note": "applies_to says 'All Routes' but the text excludes every route in the dataset, so it applies to none."
+  },
+  {
+    "note_id": "N005",
+    "routes": ["Mumbai-Delhi"],
+    "effective_from": "2024-07-29",
+    "effective_to": "2024-08-04",
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "costs were not significantly affected",
+    "annotation_note": "Delays for 'about a week'; the text explicitly says costs were not affected."
+  },
+  {
+    "note_id": "N006",
+    "routes": ["ALL"],
+    "effective_from": "2025-07-01",
+    "effective_to": "2025-09-30",
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "demand for freight capacity remained stable this quarter with no major disruptions reported",
+    "annotation_note": "'This quarter' relative to 2025-09-22 is calendar Q3 2025."
+  },
+  {
+    "note_id": "N007",
+    "routes": ["Delhi-Jaipur"],
+    "effective_from": "2024-05-20",
+    "effective_to": null,
+    "cost_effect": "not_stated",
+    "magnitude_pct": null,
+    "evidence": "improved road conditions on the Delhi-Jaipur stretch after resurfacing work was completed",
+    "annotation_note": "Describes better roads; says nothing about a cost rise, so it cannot justify one."
+  },
+  {
+    "note_id": "N008",
+    "routes": ["Kolkata-Bhubaneswar"],
+    "effective_from": "2025-04-01",
+    "effective_to": "2025-06-30",
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "No significant disruptions were reported on the Kolkata-Bhubaneswar corridor this quarter; freight movement remained normal",
+    "annotation_note": "'This quarter' relative to 2025-06-09 is calendar Q2 2025."
+  },
+  {
+    "note_id": "N009",
+    "routes": ["Chennai-Bangalore"],
+    "effective_from": "2025-03-17",
+    "effective_to": null,
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "the Chennai-Bangalore route returned to normal conditions after flood-related repairs were completed",
+    "annotation_note": "Says the route is back to normal: it argues against a cost rise, never for one."
+  },
+  {
+    "note_id": "N010",
+    "routes": ["ALL"],
+    "effective_from": "2025-10-27",
+    "effective_to": null,
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "compliance costs were absorbed by transporters without a rate change",
+    "annotation_note": "Explicitly no rate change."
+  }
+]

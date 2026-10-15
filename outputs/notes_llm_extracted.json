@@ -1,0 +1,123 @@
+[
+  {
+    "note_id": "N001",
+    "routes": [
+      "Chennai-Bangalore"
+    ],
+    "effective_from": "2025-02-24",
+    "effective_to": "2025-03-08",
+    "cost_effect": "increase",
+    "magnitude_pct": null,
+    "evidence": "higher trip costs",
+    "validation_error": null
+  },
+  {
+    "note_id": "N002",
+    "routes": [
+      "Ahmedabad-Mumbai"
+    ],
+    "effective_from": "2025-01-20",
+    "effective_to": null,
+    "cost_effect": "increase",
+    "magnitude_pct": null,
+    "evidence": "temporary surcharge applied by transporters",
+    "validation_error": null
+  },
+  {
+    "note_id": "N003",
+    "routes": [
+      "ALL"
+    ],
+    "effective_from": "2025-05-05",
+    "effective_to": null,
+    "cost_effect": "increase",
+    "magnitude_pct": [
+      5,
+      7
+    ],
+    "evidence": "Diesel prices rose nationwide starting this week, pushing up transportation costs across all routes by roughly 5-7%.",
+    "validation_error": null
+  },
+  {
+    "note_id": "N004",
+    "routes": [],
+    "effective_from": "2024-03-11",
+    "effective_to": null,
+    "cost_effect": "not_stated",
+    "magnitude_pct": null,
+    "evidence": "",
+    "validation_error": "N004: evidence is not a verbatim quote from the note"
+  },
+  {
+    "note_id": "N005",
+    "routes": [
+      "Mumbai-Delhi"
+    ],
+    "effective_from": "2024-07-29",
+    "effective_to": "2024-08-04",
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "costs were not significantly affected.",
+    "validation_error": null
+  },
+  {
+    "note_id": "N006",
+    "routes": [
+      "ALL"
+    ],
+    "effective_from": "2025-09-22",
+    "effective_to": null,
+    "cost_effect": "not_stated",
+    "magnitude_pct": null,
+    "evidence": "overall demand for freight capacity remained stable this quarter with no major disruptions reported",
+    "validation_error": null
+  },
+  {
+    "note_id": "N007",
+    "routes": [
+      "Delhi-Jaipur"
+    ],
+    "effective_from": "2024-05-20",
+    "effective_to": null,
+    "cost_effect": "not_stated",
+    "magnitude_pct": null,
+    "evidence": "Local authorities announced improved road conditions on the Delhi-Jaipur stretch after resurfacing work was completed.",
+    "validation_error": null
+  },
+  {
+    "note_id": "N008",
+    "routes": [
+      "Kolkata-Bhubaneswar"
+    ],
+    "effective_from": "2025-06-09",
+    "effective_to": "2025-06-30",
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "freight movement remained normal.",
+    "validation_error": null
+  },
+  {
+    "note_id": "N009",
+    "routes": [
+      "Chennai-Bangalore"
+    ],
+    "effective_from": "2025-03-17",
+    "effective_to": null,
+    "cost_effect": "not_stated",
+    "magnitude_pct": null,
+    "evidence": "Highway authorities confirmed the Chennai-Bangalore route returned to normal conditions after flood-related repairs were completed.",
+    "validation_error": null
+  },
+  {
+    "note_id": "N010",
+    "routes": [
+      "ALL"
+    ],
+    "effective_from": "2025-10-27",
+    "effective_to": null,
+    "cost_effect": "no_change",
+    "magnitude_pct": null,
+    "evidence": "compliance costs were absorbed by transporters without a rate change.",
+    "validation_error": null
+  }
+]

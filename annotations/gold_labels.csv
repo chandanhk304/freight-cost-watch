@@ -1,0 +1,17 @@
+route,week_of,expected_flagged,expected_note_id,source,basis
+Delhi-Jaipur,2024-11-11,Yes,,sample,Labelled by the case-study authors in sample_output_format_v2.csv
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,sample,Labelled by the case-study authors in sample_output_format_v2.csv
+Mumbai-Pune,2025-09-15,Yes,,sample,Labelled by the case-study authors in sample_output_format_v2.csv
+Chennai-Bangalore,2025-02-24,No (justified),N001,notes,N001: flooding Feb 24 to Mar 8 raised trip costs; this week is inside the window
+Chennai-Bangalore,2025-03-03,No (justified),N001,notes,Week Mar 3-9 contains Mar 8 (last disrupted day) so N001 still applies
+Chennai-Bangalore,2025-03-10,Yes,,notes,Cost still ~30% above normal but N001 ended Mar 8 (roads passable Mar 9) and no other note explains it
+Chennai-Bangalore,2025-03-17,Yes,,notes,Cost still elevated; N009 says the route returned to normal so it cannot justify a rise
+Delhi-Jaipur,2024-11-18,Yes,,notes,Cost ~28% above its average; the only Delhi-Jaipur note (N007) is about road resurfacing and mentions no cost rise
+Mumbai-Pune,2025-12-01,Yes,,notes,~37% above its only peer vs a usual ~10%; diesel (N003) applies to all routes so it raised the peer too
+Ahmedabad-Mumbai,2025-01-27,No,,notes,N002 covers only the festival week; cost back to normal the week after
+Mumbai-Delhi,2024-07-29,No,,notes,N005: highway maintenance caused delays but costs were not significantly affected
+Delhi-Jaipur,2024-05-20,No,,notes,N007: improved road conditions; nothing suggests a cost rise
+Delhi-Chennai,2024-03-11,No,,notes,N004: new toll plaza but the affected routes are not in this dataset
+Kolkata-Bhubaneswar,2025-05-12,No|No (justified),|N003,notes,Small diesel-driven rise; N008 says freight movement was normal; either not anomalous or justified by N003
+Chennai-Bangalore,2025-05-05,No|No (justified),|N003,notes,Diesel week (N003 5-7% on all routes): must not be flagged as unexplained
+Mumbai-Delhi,2025-05-12,No (justified),N003,judgment,+11.6% vs history against diesel's stated 5-7%; judged consistent once ~6 points of normal weekly noise is allowed

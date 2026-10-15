@@ -1,0 +1,73 @@
+{
+  "inputs_sha256": {
+    "shipments": "1a2b4d66c4dc694111ba37b966486b5b0650df9ec8687402f3434117b140f4b6",
+    "notes": "875c57a896ac3dfac0f712f8865b287bb5d2bd5423d26e798297b74dce87e6dc",
+    "notes_structured": "a65a5c0981c85f792e1895d250c492d156e34e8aa43363582f4ddcbc239c87d9"
+  },
+  "mode": {
+    "use_cache": false,
+    "use_llm": true,
+    "model": "openai/gpt-oss-20b"
+  },
+  "rows": 728,
+  "verdicts": {
+    "No": 706,
+    "Yes": 18,
+    "No (justified)": 4
+  },
+  "reason_sources": {
+    "llm": 20,
+    "cache": 0,
+    "template": 706,
+    "template_fallback": 2
+  },
+  "llm_usage_this_run": {
+    "model": "openai/gpt-oss-20b",
+    "temperature": 0.0,
+    "seed": 42,
+    "reasoning_effort": "low",
+    "calls": 25,
+    "failures": 0,
+    "input_tokens": 17433,
+    "output_tokens": 1924,
+    "price_usd_per_million": {
+      "input": 0.075,
+      "output": 0.3
+    },
+    "estimated_cost_usd": 0.001885,
+    "by_purpose": {
+      "explanation": {
+        "calls": 25,
+        "input_tokens": 17433,
+        "output_tokens": 1924
+      }
+    }
+  },
+  "fallbacks": [
+    {
+      "route": "Delhi-Jaipur",
+      "week_of": "2024-11-11",
+      "why": "rejected llm reply, attempt 1 (says N007 states no cost change, but it does not mention costs): No note justifies the rise; the only checked note (N007) refers to road resurfacing and explicitly states it does not affect freight costs, so it does not explain the 35.5% increase. This case is flagged for human review."
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-06",
+      "why": "rejected llm reply, attempt 1 (says N003's window does not cover the week, but that is not why it was rejected): No note justifies the rise; N003, N006, and N010 all either cover different windows or state no cost increase, so the 22.9% jump remains unexplained and is flagged for human review."
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-06",
+      "why": "rejected llm reply, attempt 2 (says N003's window does not cover the week, but that is not why it was rejected): No note justifies the rise; N003 applies to all routes but cannot explain this route pulling away from similar routes, N006's window ends 2025-09-30 and states no cost change, and N010's window starts 2025-10-27 and also states no cost change. The spike is flagged for human review."
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-27",
+      "why": "rejected llm reply, attempt 1 (says N003 shows no cost increase, but it describes one): No note justifies the rise; N003, N010, and N006 all either apply to all routes without explaining a pull-away or state no cost change, and N006's window ends before this week, so the 28.3% increase is flagged for human review."
+    },
+    {
+      "route": "Mumbai-Pune",
+      "week_of": "2025-10-27",
+      "why": "rejected llm reply, attempt 2 (says N003 shows no cost increase, but it describes one): No note justifies the rise; N003, N010, and N006 all either state no cost increase or apply to all routes without explaining the pull away, so the spike is flagged for human review."
+    }
+  ]
+}
